@@ -1,16 +1,16 @@
 import 'teacher.dart';
 
 class Course {
-  int courseId;
+  int id;
   String name;
   int credits;
   Teacher teacher;
-  Course(this.courseId, this.name, this.credits, this.teacher);
+  Course(this.id, this.name, this.credits, this.teacher);
 
     @override
   String toString() {
     return "Course Info:\n"
-        "Course ID: $courseId\n"
+        "Course ID: $id\n"
         "Name: $name\n"
         "Credits: $credits\n"
         "Teacher: ${teacher.name}\n";
