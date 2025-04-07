@@ -3,7 +3,7 @@ import 'package:hangman/class/HangmanGame.dart';
 
 void main(){
 
- print('🎮 Welcome to Hangman! 🎮');
+ print(' Welcome to Hangman! ');
 HangmanGame game = HangmanGame(); // بنعمل Object من اللعبة
 
 game.printWordState(); // بنعرض حالة الكلمة أول مرة
