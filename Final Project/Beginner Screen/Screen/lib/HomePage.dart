@@ -12,7 +12,7 @@ class Homepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 📌 قائمة الصور هنا
+
     List<String> myImages = [
       "Images/Image_6.jpg",
       "Images/image_1.jpg",
@@ -27,7 +27,7 @@ class Homepage extends StatelessWidget {
           Row(
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 10), // يبعد العناصر عن الحافة
+                padding: const EdgeInsets.only(left: 11), 
                 child: Column(
                   children: [
                     Container(
