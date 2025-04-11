@@ -24,7 +24,7 @@ class PriceAndButton extends StatelessWidget {
             ),
           ),
           child: const Text(
-            "Add To Cart ",
+            "Add To Cart",
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
