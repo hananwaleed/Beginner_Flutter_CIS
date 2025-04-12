@@ -1,4 +1,4 @@
-import 'package:hotelbookingsystem/hotelbookingsystem.dart';
+import 'package:hotelbookingsystem/main.dart';
 import 'package:test/test.dart';
 
 void main() {
