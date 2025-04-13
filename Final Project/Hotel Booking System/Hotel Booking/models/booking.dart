@@ -5,7 +5,8 @@ class Booking {
   final DateTime checkInDate;
   final DateTime checkOutDate;
   final double totalPrice;
-  final String status; 
+  final String status;
+  final String paymentStatus;
 
   Booking({
     required this.id,
@@ -15,5 +16,6 @@ class Booking {
     required this.checkOutDate,
     required this.totalPrice,
     required this.status,
+    required this.paymentStatus,
   });
 }

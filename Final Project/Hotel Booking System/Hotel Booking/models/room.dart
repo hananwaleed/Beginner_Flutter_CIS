@@ -1,11 +1,11 @@
 class Room {
-  final int idRoom;
-  final int hotelId;
-  final String type;
-  final double pricePerNight;
-  final bool isAvailable;
-  final int capacity;
-  final List<String> amenities;
+  int idRoom;
+  int hotelId;
+  String type;
+  double pricePerNight;
+  bool isAvailable;
+  int capacity;
+  List<String> amenities; 
 
   Room({
     required this.idRoom,
@@ -16,4 +16,10 @@ class Room {
     required this.capacity,
     required this.amenities,
   });
+
+
+  @override
+  String toString() {
+    return 'Room $idRoom: $type, Price: \$${pricePerNight.toStringAsFixed(2)}, Capacity: $capacity';
+  }
 }

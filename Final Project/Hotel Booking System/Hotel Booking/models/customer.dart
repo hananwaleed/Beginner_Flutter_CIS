@@ -4,6 +4,8 @@ class Customer {
   final String phone;
   final String email;
   final String address;
+  final DateTime dateOfBirth; 
+  final String membershipStatus;
 
   Customer({
     required this.id,
@@ -11,5 +13,7 @@ class Customer {
     required this.phone,
     required this.email,
     required this.address,
+    required this.dateOfBirth,
+    required this.membershipStatus, 
   });
 }

@@ -1,8 +1,8 @@
 class PaymentMethod {
-  final int id;
-  final int customerId;
-  final String methodType; 
-  final String details; 
+  int id;
+  int customerId;
+  String methodType; 
+  String details;  
 
   PaymentMethod({
     required this.id,
@@ -10,4 +10,10 @@ class PaymentMethod {
     required this.methodType,
     required this.details,
   });
+
+
+  @override
+  String toString() {
+    return 'PaymentMethod $id: Customer ID $customerId, Type: $methodType, Details: $details';
+  }
 }

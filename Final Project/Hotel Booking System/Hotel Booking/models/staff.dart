@@ -4,7 +4,9 @@ class Staff {
   final String role; 
   final String contactInfo;
   final DateTime hireDate;
-  final String shift; 
+  final String shift;
+  final double salary;
+  final String department;
 
   Staff({
     required this.id,
@@ -13,5 +15,7 @@ class Staff {
     required this.contactInfo,
     required this.hireDate,
     required this.shift,
+    required this.salary,
+    required this.department,
   });
 }

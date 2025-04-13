@@ -5,6 +5,7 @@ class Guest {
   final String email;
   final String nationality;
   final String idNumber;
+  final String passportNumber; 
 
   Guest({
     required this.id,
@@ -13,5 +14,6 @@ class Guest {
     required this.email,
     required this.nationality,
     required this.idNumber,
+    required this.passportNumber, 
   });
 }
