@@ -7,8 +7,8 @@ class BuildColors extends StatelessWidget {
 
   Widget _buildColorCircle(Color color) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 1, vertical: 1),
-      child: CircleAvatar(radius: 16, backgroundColor: color),
+      padding: const EdgeInsets.symmetric(horizontal: 2, vertical: 2),
+      child: CircleAvatar(radius: 13, backgroundColor: color),
     );
   }
 

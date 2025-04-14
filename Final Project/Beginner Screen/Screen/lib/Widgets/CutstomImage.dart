@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomImageContainer extends StatelessWidget {
-  final List<String> imagePaths; // قائمة الصور بدل صورة وحدة
+  final List<String> imagePaths;
 
   const CustomImageContainer({super.key, required this.imagePaths});
 
@@ -30,7 +30,7 @@ class CustomImageContainer extends StatelessWidget {
             ),
           ),
         );
-      }).toList(), // ✅ تحويل الماب لـ List
+      }).toList(), 
     );
   }
 }

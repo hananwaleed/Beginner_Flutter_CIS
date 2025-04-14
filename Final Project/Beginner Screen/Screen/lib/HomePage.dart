@@ -94,8 +94,8 @@ class Homepage extends StatelessWidget {
                 const SizedBox(height: 10),
                 const Text(
                   "Wireless Over-ear Industry Leading Noise Canceling Headphones with Microphone",
-                  style: TextStyle(fontSize: 15, color: Colors.white),
-                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 18, color: Colors.white),
+                  
                 ),
                 const SizedBox(height: 10),
                 Row(
